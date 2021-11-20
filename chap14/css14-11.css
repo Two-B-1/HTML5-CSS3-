@@ -1,0 +1,28 @@
+/*body的样式*/
+body{
+	margin:0px;
+	text-align:center;
+	font:28px/2 微软雅黑,黑体,宋体;
+}
+div{
+	border:1px solid #000;
+	margin:5px;
+}
+/*父容器#container的样式*/
+#container{
+	margin:0 auto;
+	width:960px;
+	height:1100px;
+}
+
+#top{ height:100px; }
+#focus{ height:200px;}
+#navi{ height:50px; }
+#main{ height:540px; }
+#left,#center,#right{     /*主内容区三个子div的样式*/
+	  float:left;
+      width:290px;
+      height:500px;
+	  margin:10px;
+}
+#foot{ height:150px;}

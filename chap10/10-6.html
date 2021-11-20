@@ -1,0 +1,38 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>边框颜色</title>
+<style type="text/css">
+div{
+	width:80px;
+	height:50px;
+	margin:10px;     /*外边距*/  
+	float:left;      /*左边浮动*/
+	font-size:13px;
+	border-style:solid;     /*边框样式solid*/
+	border-width:10px;    /*边框宽度10像素*/ 
+}
+#bc1{ 
+	border-style:groove;
+	border-color:#81409A; 
+}
+#bc2{ border-color:#81409A #B7D5EF; }
+#bc3{ border-color:#81409A #B7D5EF #B6CE44; }
+#bc4{ border-color:#81409A #B7D5EF #B6CE44 #FDDA04; }
+#bc5{
+	border-top-color:#81409A;
+	border-right-color:#B7D5EF;
+	border-bottom-color:#B6CE44;
+	border-left-color:#FDDA04;;
+}
+</style>
+</head>
+<body>
+<div id="bc1">1个颜色值，样式groove</div>
+<div id="bc2">2个颜色值,样式solid</div>
+<div id="bc3">3个个颜色值,样式solid</div>
+<div id="bc4">4个个颜色值,样式solid</div>
+<div id="bc5">分别设定4个边,样式solid</div>
+</body>
+</html>
+			

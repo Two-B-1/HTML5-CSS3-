@@ -1,0 +1,32 @@
+body{
+	margin:0px;
+	text-align:center;
+	font:20px/2 微软雅黑,黑体,宋体;
+}
+div{  
+	border:1px solid #000;
+	margin:9px;
+}
+#container{      			
+	margin:0 auto;
+	width:960px;
+}
+#top{ height:180px;}
+#navi{ height:30px; }
+#main{ height:540px; }
+#left{
+	float:left;
+	width:200px;
+	height:360px;
+}
+#right{
+	float:right;
+	width:700px;
+	height:520px;
+}
+#foot{ padding:20px;}
+
+
+
+
+

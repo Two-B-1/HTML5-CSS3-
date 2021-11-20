@@ -1,0 +1,40 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>列表复合属性</title>
+<style type=text/css>
+/* 列表所在容器的基本属性设置，后续章节详解 */
+div{ 
+	width:270px;
+	height:240px;
+	float:left;
+	margin:5px;
+	border:1px solid #666;
+}
+.ls1{
+	list-style:outside upper-alpha;
+}
+.ls2{ 
+	list-style:inside url(images/flower.png)  upper-alpha; 
+}
+</style>
+</head>
+<body>
+<div>
+	<ol class="ls1">
+		<li>春花秋月何时了？往事知多少。</li>
+		<li>小楼昨夜又东风，故国不堪回首月明中。</li>
+		<li>雕栏玉砌应犹在，只是朱颜改。</li>
+		<li>问君能有几多愁？恰似一江春水向东流。</li>
+	</ol>
+</div>
+<div>
+	<ol class="ls2">
+		<li>春花秋月何时了？往事知多少。</li>
+		<li>小楼昨夜又东风，故国不堪回首月明中。</li>
+		<li>雕栏玉砌应犹在，只是朱颜改。</li>
+		<li>问君能有几多愁？恰似一江春水向东流。</li>
+	</ol>
+</div>
+</body>
+</html>

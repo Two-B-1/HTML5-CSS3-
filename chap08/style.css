@@ -1,0 +1,20 @@
+h1{
+	text-align:center;            /* 设置对齐方式居中 */
+    
+}
+p{
+	line-height:1.5;               /* 设置行高 */
+	font-size:14px;                /* 设置字体大小 */
+}
+img{
+	width:120px;                  /* 设置宽度 */
+}
+
+/*
+此处代码备用
+body{
+	background-color:#dcb864;    
+}
+*/
+
+

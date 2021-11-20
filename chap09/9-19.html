@@ -1,0 +1,33 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>断行处理</title>
+<style type="text/css">
+/* 此处给文字所在的容器div设置大小边框等属性，读者可暂时忽略具体内容，后续详解 */
+div{
+	width:120px;
+	height:120px;
+	margin:20px;
+	float:left;
+	border:1px solid black;
+	font:13px/1.3 黑体,Calibri;
+}
+.wrap1{
+	word-wrap:normal;
+	overflow-wrap:normal;
+}
+.wrap2{
+	word-wrap:break-word;
+	overflow-wrap:break-word;
+}
+</style>
+</head>
+<body>
+<div class="wrap1">
+正常情况下单词内部不换行，这有时会造成困扰，如长单词或者网址。新浪：http://www.sina.com.cn/	
+</div>
+<div class="wrap2">
+我们常常需要让盒子中显示一个长单词如url时换行，而不是撑破盒子。新浪：http://www.sina.com.cn/。
+</div>
+</body>
+</html>

@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>列表符号位置</title>
+<style type=text/css>
+/* 列表所在容器的基本属性设置，后续章节详解 */
+div{ 
+	width:200px;
+	float:left;
+	margin:10px;
+	border:1px solid #666;
+}
+/* 列表符号在文本外*/
+.lspo{
+	list-style-position:outside;
+	list-style-type:upper-alpha;
+}
+/* 列表符号在文本内*/
+.lspi{ 
+	list-style-position:inside;
+	list-style-type:upper-alpha; 
+}
+</style>
+</head>
+<body>
+<div>
+	<h1>outside</h1>
+	<ol class="lspo">
+		<li>春花秋月何时了？往事知多少。</li>
+		<li>小楼昨夜又东风，故国不堪回首月明中。</li>
+		<li>雕栏玉砌应犹在，只是朱颜改。</li>
+		<li>问君能有几多愁？恰似一江春水向东流。</li>
+	</ol>
+</div>
+<div>
+	<h1>inside</h1>
+	<ol class="lspi">
+		<li>春花秋月何时了？往事知多少。</li>
+		<li>小楼昨夜又东风，故国不堪回首月明中。</li>
+		<li>雕栏玉砌应犹在，只是朱颜改。</li>
+		<li>问君能有几多愁？恰似一江春水向东流。</li>
+	</ol>
+</div>
+</body>
+</html>

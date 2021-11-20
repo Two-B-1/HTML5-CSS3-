@@ -1,0 +1,113 @@
+/*body样式，背景由两幅图像和渐变色组成*/
+body{
+	text-align:center;
+	margin:0px;
+	background:url(images/cup1.png) fixed  no-repeat left bottom ,
+		url(images/text1.png) fixed  no-repeat right bottom ,
+		linear-gradient(white,#672a2f) fixed;
+}
+
+/*外部父div样式*/
+#container{
+	width:1000px;
+	height:auto;
+	margin:0 auto;
+	/*背景由顶部不重复图像和颜色组成*/
+	background:#fefddf url(images/bg13.jpg) no-repeat center top; 
+}
+
+/*搜索表单所在div——search的样式 */
+#search{
+	height:400px;
+	padding:40px;
+}
+/*搜索文本框样式 */
+.sinput{
+       	width:300px;
+        height:21px;       
+        padding:4px 7px; 
+        color:#737272;   
+	border:1px solid #787575; 
+        border-radius:2px 0 0 2px;
+        opacity:0.7;
+ }
+/*搜索按钮样式 */
+.sbtn {
+	width:60px; 
+	height:31px;
+       	padding:0 12px;
+       	margin-left:-10px;
+       	border-radius:0 2px 2px 0;
+       	border:1px solid #787575;        
+       	background-color:#4c4b4b;
+       	font-size:14px;       
+       	color:#f3f7fc;
+}
+
+
+/*导航栏——navi样式 */
+#navi{
+	background:#672a2f;
+	color:white;
+	padding:10px;
+}
+#navi span{
+	margin:0 80px;
+	font-size:14px;
+	font-family:黑体;
+}
+
+/*主体内容1——main1样式*/
+#main1{
+	box-sizing:border-box;
+	text-align:left;
+	font-size:14px;
+	padding:40px 20px;
+	line-height:2;
+	height:255px;
+	/*背景由右侧不重复图像和颜色组成*/
+	background:#fefddf url(images/grape1.jpg) no-repeat right top;
+	border-top:1px solid #c7a7a6;
+	border-bottom:1px solid #c7a7a6;
+}
+
+/*主体内容2——main2样式*/
+#main2{
+	box-sizing:border-box;
+	text-align:right;
+	font-size:14px;
+	padding:40px 20px;
+	line-height:2;
+	height:300px;
+	/*背景由左侧不重复图像和颜色组成*/
+	background:#fefddf url(images/cup2.jpg) no-repeat left top;
+}
+/*main2中段落样式*/
+#main2 p{
+	width:670px;
+	float:right;
+	text-align:left;
+	text-indent:2em;
+}
+
+/*主体内容3——main3样式*/
+#main3{
+	height:300px;
+	border-top:1px solid #c7a7a6;
+	border-bottom:1px solid #c7a7a6;
+}
+/*鼠标经过main3中图像的样式*/
+#main3 img:hover{ opacity:0.5; }
+
+/*页脚——foot样式*/
+#foot{
+	background:#672a2f;
+	color:white;
+	padding:10px;
+	font-size:12px;
+}
+
+
+
+
+

@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>书写模式</title>
+<style type="text/css">
+/* 此处给文字所在的容器div设置大小边框等属性，读者可暂时忽略具体内容，后续详解 */
+div{
+	width:140px;
+	height:140px;
+	margin:10px;
+	border:1px solid black;
+	float:left;
+	font-size:13px;
+	line-height:1.3;
+}
+/* 水平文本，从上到下 */
+.wm1{ 
+	writing-mode:horizontal-tb;    /* 适用于大多浏览器，IE不支持 */
+	writing-mode:lr-tb;           /*适用于IE，其他浏览器高版本亦可能支持 */
+}
+.wm2{ 
+	writing-mode:vertical-rl;     /* 适用于大多浏览器，IE不支持 */
+	writing-mode:tb-rl;           /*适用于IE，其他浏览器高版本亦可能支持 */
+}
+.wm3{ 
+	writing-mode:vertical-lr;   /* 适用于大多浏览器，IE不支持 */
+}
+</style>
+</head>
+<body>
+<div class="wm1">
+明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？
+</div>
+<div class="wm2">
+明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？	
+</div>
+<div class="wm3">
+明月几时有？把酒问青天。不知天上宫阙，今夕是何年。我欲乘风归去，又恐琼楼玉宇，高处不胜寒。起舞弄清影，何似在人间？	
+</div>
+</body>
+</html>
+
+
+

@@ -1,0 +1,39 @@
+body{
+	text-align:center;
+	font-size:14px;
+}
+#container{   			
+	margin:0 auto;
+	width:980px;
+}
+#top{    				
+	height:380px;
+	margin-bottom:4px;
+	box-shadow: 2px 2px 2px gray;  /*ºÐ×ÓÒõÓ°*/
+}
+#navi{   				
+	background-color:#FF8;
+	padding:8px;   
+	box-shadow: 2px 2px 2px gray;
+}
+#content{       		
+	text-align:left;             
+	line-height:22px;           	
+	text-indent:2em;   
+	border-image:url(images/flower.png) 4/4px repeat;   /*Í¼Ïñ±ß¿ò*/
+	padding: 8px;       
+	margin:4px 0px;     
+	box-shadow: 2px 2px 2px gray;	   	
+}
+#foot{         				
+	background-color:#ACD;               
+	padding:20px; 
+	box-shadow: 2px 2px 2px gray;
+	border-radius:0 0 10px 10px;	    /*Ô²½Ç±ß¿ò*/                 
+}
+span{    
+	padding:0 26px;
+}
+
+
+

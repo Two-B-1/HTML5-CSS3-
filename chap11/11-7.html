@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<title>背景图像滚动</title>
+<style type="text/css">
+body{
+	background-image:url(images/bg4.jpg);    /*网页的背景图像*/
+	background-attachment:fixed;	        /*背景图像相对于窗体固定*/
+}
+div{
+	width:300px;
+	height:300px;
+	margin:10px;
+	overflow:auto;                            /*盒子内容溢出时自动加上滚动条*/
+	border:1px solid black;
+	background-image:url(images/bg5.jpg);    /*三个div设置同样的背景图像*/	
+	line-height:2;
+
+}
+#ba1{          /*背景图像相对于元素固定，背景图像跟着元素(div盒子)本身*/
+	background-attachment:scroll;       
+}
+#ba2{         /*背景图像相对于元素内容固定，背景图像跟着内容(文本)滚动*/
+	background-attachment:local;       
+}
+</style>
+</head>
+<body>
+<div id="ba1">
+<h2>scroll</h2>
+蒹葭苍苍，白露为霜。<br />所谓伊人，在水一方。<br />
+溯洄从之，道阻且长。<br />溯游从之，宛在水中央。<br />
+蒹葭萋萋，白露未晞。<br />所谓伊人，在水之湄。<br />
+溯洄从之，道阻且跻。<br />溯游从之，宛在水中坻。<br />
+蒹葭采采，白露未已。<br />所谓伊人，在水之涘。<br />
+溯洄从之，道阻且右。<br />溯游从之，宛在水中沚。
+</div>
+<div id="ba2">
+<h2>local</h2>
+蒹葭苍苍，白露为霜。<br />所谓伊人，在水一方。<br />
+溯洄从之，道阻且长。<br />溯游从之，宛在水中央。<br />
+蒹葭萋萋，白露未晞。<br />所谓伊人，在水之湄。<br />
+溯洄从之，道阻且跻。<br />溯游从之，宛在水中坻。<br />
+蒹葭采采，白露未已。<br />所谓伊人，在水之涘。<br />
+溯洄从之，道阻且右。<br />溯游从之，宛在水中沚。
+</div>
+<div>
+<h2>div等元素默认滚动方式</h2>
+蒹葭苍苍，白露为霜。<br />所谓伊人，在水一方。<br />
+溯洄从之，道阻且长。<br />溯游从之，宛在水中央。<br />
+蒹葭萋萋，白露未晞。<br />所谓伊人，在水之湄。<br />
+溯洄从之，道阻且跻。<br />溯游从之，宛在水中坻。<br />
+蒹葭采采，白露未已。<br />所谓伊人，在水之涘。<br />
+溯洄从之，道阻且右。<br />溯游从之，宛在水中沚。
+</div>
+</body>
+</html>

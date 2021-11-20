@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>按钮式链接</title>
+<style type="text/css">
+body{
+	text-align:center;
+}
+/* 导航条的样式设置 */
+#navi{
+	font-size:14px;
+	margin:0 auto;
+	width:960px;
+}
+/*导航条部分链接样式的设置*/
+#navi a{             /*链接通用样式*/
+	display:block;      /*显示为块级元素*/                          
+	float:left;	/*浮动在左*/
+	width:100px;       /*宽100像素*/ 
+	color:white; 
+	font-family:微软雅黑,黑体,宋体;
+	text-decoration:none;        /*无下划线*/ 
+	margin:2px;               /*按钮的外边距*/   
+	padding:6px 15px;
+	border-radius:2px;
+}
+#navi a:link,#navi a:visited{		/* 未访问和访问链接样式*/
+	background:linear-gradient(#684621,#ddaf7c);    /*渐变背景*/
+	/* 左上边框颜色相同，右下边框颜色相同*/
+	border-top:#cccccc 1px solid;
+	border-left:#cccccc 1px solid;
+	border-right:#0d0503 1px solid;
+	border-bottom:#0d0503 1px solid;    
+}
+#navi a:hover{		/* 鼠标经过时的超链接 */		 	
+	background:#724b20;
+	/* 左上边框和右下边框颜色调换*/
+	border-bottom:#cccccc 1px solid;
+	border-right:#cccccc 1px solid;
+	border-left:#0d0503 1px solid;
+	border-top:#0d0503 1px solid;
+}
+</style>
+</head>
+<body>
+<div id="navi">
+	<a href="#">回到首页</a>
+    <a href="#">中心概况</a>
+	<a href="#">组织机构</a>
+	<a href="#">人才队伍</a>
+	<a href="#">创新方向</a>
+	<a href="#">人才培养</a>
+    <a href="#">政策文件</a>
+</div>
+</body>
+</html>

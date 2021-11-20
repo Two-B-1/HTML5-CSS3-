@@ -1,0 +1,29 @@
+body{
+	text-align:center;
+	font-size:14px;
+}
+#container{   			
+	margin:0 auto;      /* 外部div的外边距设置*/
+	width:980px;
+}
+#top{    		
+	height:380px;
+	margin-bottom:4px;
+}
+#navi{   		
+	background-color:#FF8;
+	padding:8px;   
+}
+#content{       		
+	text-align:left;             
+	line-height:22px;       
+	text-indent:2em;        	
+}
+#foot{         	
+	background-color:#ACD;               
+	padding:20px;   
+	font-size:12px;               
+}
+span{    
+	padding:0 26px;
+}

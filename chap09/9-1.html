@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>颜色color</title>
+<style type="text/css">
+	body{
+		color:orange;                 /* color_name */
+		font-weight:bold;            /*字体加粗*/
+		font-size:18px;              /*字体大小*/ 
+	}           
+	.hex1{ color:#808000; }             /* HEX #RRGGBB形式*/
+	.hex2{ color:#F0F;}                /* HEX,#RGB形式 */
+	.rgb1{color:RGB(0,145,153);}       /* RGB */
+	.rgba1{color:RGBA(0,145,153,0.5);}      /* RGBA */
+	.rgb2{color:RGB(80%,50%,50%);}       /* RGB */
+	.rgba2{color:RGBA(80%,50%,50%,0.5);}      /* RGBA */
+	.hsl{color:HSL(159,100%,69%);}         /* HSL */
+	.hsla{color:HSLA(159,100%,69%,0.8);}    /* HSLA */
+	.trans{color:transparent;}          /* transparent */
+</style>
+</head>
+<body>
+<p class="hex1">颜色为HEX形式，橄榄绿#808000</p>
+<p class="hex2">颜色为HEX形式，紫红色#F0F</p> 
+<p class="rgb1">颜色为RGB形式，RGB(0,145,153)</p> 
+<p class="rgba1">颜色为RGBA形式，RGBA(0,145,153,0.5)</p> 
+<p class="rgb2">颜色为RGB形式，RGB(80%,50%,50%)</p> 
+<p class="rgba2">颜色为RGBA形式，RGBA(80%,50%,50%,0.5)</p> 
+<p class="hsl">颜色为HSL形式，HSL(159,100%,69%)</p> 
+<p class="hsla">颜色为HSLA形式，颜色为HSLA(159,100%,69%,0.8)</p> 
+<p class="trans">颜色为transparent完全透明</p>
+<p>颜色继承body的颜色，橙色orange</p>
+</body>
+</html>

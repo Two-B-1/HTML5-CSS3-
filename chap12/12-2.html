@@ -1,0 +1,60 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+	<title>盒子阴影</title>
+</head>
+<style type="text/css">
+.table_style
+	{
+	margin: 10px auto;	/*外补白*/
+	padding:20px 20px 20px;		/*内补白*/
+	border-style: inset;	/*表格边框样式*/
+	border-collapse: separate;	/*边框是否被合并*/
+	border-width:20px;
+	border-spacing:10px 10px;	/*单元格间距*/
+	border-color: blue;
+	color: #000;	/*前景色*/
+	background: #bb8F20;  /*背景色*/  
+	}
+.table_style td
+	{
+	width:50px;	/*单元格宽度*/
+	height: 50px;	/*单元格高度*/
+	padding:0px 20px 20px;		/*内补白*/
+	border-style:double;	    /*单元格边框样式*/
+	border-width:20px;	        /*单元格边框宽度*/
+	border-color: #F90;	          /*单元格边框颜色*/
+	background: #FADD56;          /*单元格背景色*/
+	text-align:center;       /*内容居中*/
+	font-size:72px;
+	font-family: "楷体gb2312";
+	box-shadow: 30px 30px 20px  #333333;        /*盒子阴影*/
+	vertical-align: top;
+	}
+
+.title2 {
+	color: #000;
+	font-family: "方正舒体";
+	font-size: 64px;
+	font-weight:bold;
+	}
+</style>
+<body>
+<table class="table_style">
+	<tr>
+	<td>
+	<span class="title2">甲</span>
+	</td>
+	<td><span class="title2">乙</span>
+	</td>
+	</tr>
+	<tr>
+	<td>
+	<span class="title2">丙</span>
+	</td>
+	<td><span class="title2">丁</span>
+	</td>
+	</tr>
+</table>
+</body>
+</html>

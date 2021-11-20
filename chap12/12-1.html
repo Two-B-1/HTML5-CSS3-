@@ -1,0 +1,36 @@
+<!DOCTYPE HTML><html>
+<head>
+	<title>表格边框样式</title>
+</head>
+<style type="text/css">
+
+	table{ /* 表格整体样式 */
+		margin:50px;  /* 外边距50px */
+		border-collapse:collapse; /* 合并为单一的边框线 */
+	}
+	/* 设置tb1类的表格样式 */
+	table.tb1 td
+	{
+		padding:10px;border:2px solid green;
+ 		width:150px;
+ 		height:120px;
+ 		background-color:yellow;
+	}
+	/* 设置tb2类的表格样式 */
+	table.tb2 td
+	{
+		padding:20px;border:12px inset green;
+	}
+
+</style>
+<body>
+	<table class="tb1">
+		<tr><td>活</td><td>到</td><td>老</td></tr>
+		<tr><td>学</td><td>到</td><td>老</td></tr>
+	</table>
+	<table class="tb2">
+		<tr><td>学</td><td>然</td><td>后</td></tr>
+		<tr><td>知</td><td>不</td><td>足</td></tr>
+	</table>
+</body>
+</html>

@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>裁切</title>
+<style>
+div{
+	position:absolute;  /*绝对定位*/
+	width:180px;
+	height:60px;
+	font-size:24px;
+	line-height:2;
+	background:#cef091;
+	border:2px dashed #000;
+	text-align:center;
+}
+#div1{
+	left:20px;
+	top:20px;
+}
+#div2{
+	left:220px;
+	top:20px;
+	clip:rect(0px auto 50px 40px);    /*裁切*/
+}
+</style>
+</head>
+<body>
+<div id="div1">未被裁剪的效果</div>
+<div id="div2">被裁切后的效果</div>
+</body>
+</html>

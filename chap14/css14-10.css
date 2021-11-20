@@ -1,0 +1,79 @@
+﻿body{
+	text-align:center;
+
+}
+/*父div样式*/
+#container{ 
+	margin:0 auto;
+	width:960px;
+	font-size:13px; 
+}
+/*页眉样式*/
+#top{    				
+	height:180px;
+}
+/*导航栏样式*/
+#navi{   				
+	background-color:#d57504;
+	color:white;
+	padding:8px;   
+}
+#navi span{    
+	padding:0 28px;
+}
+#navi a{
+	text-decoration:none;
+	color:#fff;    
+}
+/*主内容区样式*/
+#main{       		
+	background-color:#E6E0C8;
+	height:540px;       	
+}
+#left{
+	float:left;
+	width:200px;
+	height:360px;
+	color:#3e1c0d;
+	background-color:#d57504;
+	padding:8px;
+	margin:10px;
+	border:1px #96390d solid; 
+	border-radius:10px;
+	box-shadow:2px 2px 2px gray;
+}
+#right{
+	float:right;
+	width:700px;
+	height:520px;
+	padding:8px;
+	text-align:left;                   
+	line-height:22px;           	
+	text-indent:2em; 
+}
+/*页脚样式*/
+#foot{         				
+	background-color:#d57504;               
+	padding:20px;  
+	color:#fff;             
+}
+/*左侧导航菜单样式*/
+#left ul{
+	padding:0px;
+}
+#left li{
+	list-style-type:none;
+	border-bottom:1px #E6E0C8 solid;
+	padding:10px;
+}
+#left li:hover{	
+	background-color:#782a1d;
+}
+#left a{
+	text-decoration:none;
+	color:#fff;
+}
+
+
+
+

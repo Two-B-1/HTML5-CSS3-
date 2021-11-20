@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>改变超链接样式</title>
+<style type="text/css">
+body{
+	text-align:center;
+}
+/* 导航条的样式设置 */
+#navi{                    /*导航条盒子样式设置*/
+	margin:0 auto; 
+	padding:6px;
+	width:960px;                          
+	border-top-left-radius:8px;            /*左上和右上角设置圆角边框*/
+	border-top-right-radius:8px;
+	background-color:#9f0833;
+}
+#navi a{                    /*链接通用样式*/                     
+	font-size:14px;
+	text-decoration:none;          /*无下划线*/
+	padding:6px 12px;
+	border-left:#cd335f 1px solid;    /*设置左边框为比底色稍浅颜色*/
+	border-right:#59041c 1px solid;	   /*设置由边框为比底色稍深颜色*/
+}
+#navi a:link,#navi a:visited{	/* 未访问和访问过超链接样式*/
+	color:#c1deb9;   
+}
+#navi a:hover{	        /* 鼠标经过超链接样式，鼠标经过改变背景色、前景色和文字大小*/       
+	color:white;			 	
+	background-color:#f26c4f;
+	font-size:16px;
+}
+</style>
+</head>
+<body>
+<div id="navi">
+	<a href="#">动听音乐</a><a href="#">搞笑视频</a><a href="#">电视直播</a><a href="#">综合娱乐</a><a href="#">热门影视</a><a href="#">娱乐八卦</a>
+</div>
+</body>
+</html>

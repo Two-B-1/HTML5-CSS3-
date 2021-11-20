@@ -1,0 +1,148 @@
+/*全局样式*/
+body{
+	text-align:center;
+	margin:0px;
+}
+p{
+	margin:10px;
+	font:13px/1.8 宋体;
+	text-indent:2em;
+	text-align:left
+}
+/*外部父div样式开始*/
+#container{
+	width:880px;
+	margin:0 auto;
+}
+/*外部父div样式结束*/
+/*导航区域样式开始*/
+#navi{
+	clear:both;	       /*不允许两侧有浮动*/
+	background:#00a8ce;
+	margin:5px 15px; 
+	height:36px;
+	border:3px #fff solid;
+	border-radius:10px;
+	box-shadow:0 0 2px 2px #CCCCCC;
+}
+#navi span{                /*导航条中span元素样式*/     
+	display:block;         /*显示为块级元素*/
+	float:left;         /*浮动在左*/
+	width:80px;
+	padding:5px;
+	margin:10px 0px;
+	font:14px 黑体;
+	color:#FFF;
+}
+#navi form{           /*导航区表单样式*/
+	float:right;       /*浮动在右*/ 
+	margin:3px;
+}
+.sinput{                /*导航区表单文本框样式*/
+	width:100px;
+	height:21px;       
+	padding:4px 7px; 
+	color:#737272; 
+	background:#95e3f3;  
+	border:1px solid #787575; 
+	border-radius:3px 0 0 3px;
+ }
+ .sbtn {                     /* 导航区表单搜索按钮样式 */
+	width:60px; 
+	height:31px;
+	margin-left:-10px;
+   	padding:0 12px;
+   	 border-radius:0px 3px 3px 0px;
+   	 border:1px solid #787575;        
+   	 background-color:#4c4b4b;
+    	font-size:13px;       
+    	color:#f3f7fc;
+}
+/*导航区域样式结束*/
+/*主体部分横向第一栏样式开始*/
+#main1{
+	clear:both;		       /*不允许两侧有浮动*/
+	margin:2px;
+	height:340px;
+}
+#main1_left{
+	float:left;
+	width:220px;
+	height:340px;
+	background:url(images/board.gif) no-repeat center top;
+}
+#main1_right{
+	float:right;
+	width:656px;
+}
+#main1_left p{
+	margin:60px 50px;
+}
+/*内容部分横向第一栏样式结束*/
+/*内容部分横向第二栏样式开始*/
+#main2{
+	clear:both;	
+	margin:2px;
+	height:196px;
+}
+#main2_left{          /*内容部分横向第二栏左侧样式*/ 
+	width:220px;
+	float:left;                  /*浮动在左*/ 
+}
+#main2_right{        /*内容部分横向第二栏右侧样式*/ 
+ 	float:right;           /*浮动在右*/ 
+	width:654px;
+	border:1px #a4db18 solid;
+	border-radius:5px;
+}
+#main2_left ul{   /*内容部分横向第二栏左侧列表样式*/ 
+	margin:0;
+	padding:0;
+}
+#main2_left ul li{   /*内容部分横向第二栏左侧列表项样式*/ 
+	list-style:none;
+	font:13px/1.8 宋体;
+	margin:5px auto;
+	padding:3px;
+	border:1px #ebf811 solid;
+	background:#a4db18;
+	width:85%;
+	border-radius:4px;
+}
+#main2_left ul li:hover{    /*鼠标经过内容部分横向第二栏左侧列表项样式*/ 
+	background:#ebf811;
+}
+/*内容部分横向第二栏样式结束*/
+/*内容部分横向第三栏样式开始*/
+#main3{	
+	clear:both;
+	padding:0 10px;	
+	margin:2px;
+	border:1px #a4db18 solid;
+	border-radius:5px;
+}
+#main3 ul li{            /*内容部分横向第三栏列表项样式*/ 
+	list-style-image:url(images/heart.png);
+	margin:5px 0;
+	font-size:13px;
+	text-align:left;
+	line-height:1.5;
+}
+#main3 a{           /*内容部分横向第三栏超链接样式*/ 
+	text-decoration:none;
+	color:black;
+}
+#main3 a:hover{    /*鼠标经过内容部分横向第三栏列表项样式*/ 
+	text-decoration:underline;
+	color:#e52355;
+}
+/*内容部分横向第三栏样式结束*/
+ 
+/*页脚部分样式开始*/
+#foot{
+	clear:both;
+	background:#a4db18;
+	padding:20px 0;
+	border-radius:5px;
+}
+/*页脚部分样式结束*/

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+    	<title>表单</title>
+</head>
+<body>
+	<form>
+		<fieldset>
+		<legend>申请注册</legend>
+		<table>
+	  	 <tr>
+			<td>请输入邮箱</td>
+			<td><input type="email" name="zhanghao" placeholder="请输入邮箱地址" required="required" autofocus="autofocus"/></td>
+	   	</tr>
+	   	<tr>
+			<td>密码</td>
+			<td><input type="password" name="upass_1" placeholder="请输入密码"  required="required"/></td>
+	  	</tr>
+	   	<tr>
+			<td>重复密码</td>
+			<td><input type="password" name="upass_2" placeholder="请重新输入密码"  required="required"/></td>
+	   	</tr>
+	   	<tr>
+			<td>性别</td>
+			<td><input type="radio" name="sex" checked="checked"/>男 
+		    		<input type="radio" name="sex"/>女</td>
+	   	</tr>
+	   	<tr>
+			<td>爱好</td>
+			<td><input type="checkbox" name="habit" />阅读
+		    	<input type="checkbox" name="habit" />运动
+		    	<input type="checkbox" name="habit" />烹饪<br/>
+		    	<input type="checkbox" name="habit" />音乐
+		    	<input type="checkbox" name="habit" />跳舞
+		   	<input type="checkbox" name="habit" />旅游</td>
+	   	</tr>
+	   	<tr>
+			<td>出生年月</td>
+			<td><input type="date" /></td>
+	   	</tr>
+	   	<tr>
+			<td>身高</td>
+			<td><input type="number" name="year" min="1" max="100" placeholder="身高"/></td>
+	   	</tr>
+	   	<tr>
+			<td>简介</td>
+			<td><textarea rows="5" name="textarea">请添加描述</textarea></td>
+	    	</tr>
+             	<tr>
+			<td>个人照片</td>
+			<td><input type="file" name="photo" /></td></tr>
+  	    	<tr>
+			<td><input type="submit" value="提交" /></td>
+			<td><input type="reset" value="重置" /></td>
+	    	</tr>
+	</table>		
+	</fieldset>
+	</form>
+</body>
+</html>
+
